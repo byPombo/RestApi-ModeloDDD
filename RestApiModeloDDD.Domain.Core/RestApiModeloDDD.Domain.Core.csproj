@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestApiModeloDDD.Domain\RestApiModeloDDD.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
