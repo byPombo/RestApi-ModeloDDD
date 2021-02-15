@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Autofac/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore/5.0.3": {
         "type": "package",
         "dependencies": {
@@ -162,6 +174,19 @@
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
+      "RestApiModeloDDD.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "RestApiModeloDDD.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RestApiModeloDDD.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestApiModeloDDD.Application.dll": {}
+        }
+      },
       "RestApiModeloDDD.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -184,10 +209,44 @@
         "runtime": {
           "bin/placeholder/RestApiModeloDDD.Domain.Core.dll": {}
         }
+      },
+      "RestApiModeloDDD.Domain.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "RestApiModeloDDD.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RestApiModeloDDD.Domain.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestApiModeloDDD.Domain.Services.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Autofac/6.1.0": {
+      "sha512": "22aXncFDye08TsXHobcxAoZFBeaJ9nrAxGzk9YHLLaIkYO7aeAA0Sz7Mii9qsfB76S1gdhebqMv8QsnknJMT/w==",
+      "type": "package",
+      "path": "autofac/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.6.1.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net5.0/Autofac.dll",
+        "lib/net5.0/Autofac.pdb",
+        "lib/net5.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.pdb",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "Microsoft.EntityFrameworkCore/5.0.3": {
       "sha512": "Dd0z2X2/YVlVWNjNyeNR3+av8wsNe+yYV16xDHJoD/u6eHypPd8g31eNOPqUTDKLPkqqkV7MtzhkXo/OQYFFhA==",
       "type": "package",
@@ -544,6 +603,11 @@
         "version.txt"
       ]
     },
+    "RestApiModeloDDD.Application/1.0.0": {
+      "type": "project",
+      "path": "../RestApiModeloDDD.Application/RestApiModeloDDD.Application.csproj",
+      "msbuildProject": "../RestApiModeloDDD.Application/RestApiModeloDDD.Application.csproj"
+    },
     "RestApiModeloDDD.Domain/1.0.0": {
       "type": "project",
       "path": "../RestApiModeloDDD.Domain/RestApiModeloDDD.Domain.csproj",
@@ -553,13 +617,21 @@
       "type": "project",
       "path": "../RestApiModeloDDD.Domain.Core/RestApiModeloDDD.Domain.Core.csproj",
       "msbuildProject": "../RestApiModeloDDD.Domain.Core/RestApiModeloDDD.Domain.Core.csproj"
+    },
+    "RestApiModeloDDD.Domain.Services/1.0.0": {
+      "type": "project",
+      "path": "../RestApiModeloDDD.Domain.Services/RestApiModeloDDD.Domain.Services.csproj",
+      "msbuildProject": "../RestApiModeloDDD.Domain.Services/RestApiModeloDDD.Domain.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Autofac >= 6.1.0",
       "Microsoft.EntityFrameworkCore >= 5.0.3",
+      "RestApiModeloDDD.Application >= 1.0.0",
       "RestApiModeloDDD.Domain >= 1.0.0",
-      "RestApiModeloDDD.Domain.Core >= 1.0.0"
+      "RestApiModeloDDD.Domain.Core >= 1.0.0",
+      "RestApiModeloDDD.Domain.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -588,8 +660,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\Users\\danii\\source\\repos\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj": {
+              "projectPath": "C:\\Users\\danii\\source\\repos\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj"
+            },
             "C:\\Users\\danii\\source\\repos\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj": {
               "projectPath": "C:\\Users\\danii\\source\\repos\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj"
+            },
+            "C:\\Users\\danii\\source\\repos\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj": {
+              "projectPath": "C:\\Users\\danii\\source\\repos\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj"
             },
             "C:\\Users\\danii\\source\\repos\\RestApiModeloDDD\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj": {
               "projectPath": "C:\\Users\\danii\\source\\repos\\RestApiModeloDDD\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj"
@@ -606,6 +684,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[6.1.0, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.3, )"

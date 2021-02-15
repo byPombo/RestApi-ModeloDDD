@@ -2,3 +2,17 @@ C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\bin
 C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.dll
 C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.AssemblyInfo.cs
+C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.pdb
+C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.Core.dll
+C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.dll
+C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.Core.pdb
+C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.pdb
+C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.csprojAssemblyReference.cache
+C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.csproj.CopyComplete
+C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.dll
+C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.pdb
+C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Application.dll
+C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Application.pdb
+C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.Services.dll
+C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.Services.pdb
+C:\Users\danii\source\repos\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.csproj.CoreCompileInputs.cache

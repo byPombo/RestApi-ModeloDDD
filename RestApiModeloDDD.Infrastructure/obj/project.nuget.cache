@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bM+/RwUc/1Uz4ZU6Y7qc5DfqHfxW6GLs5/x+QcWURner7G8Uh48HLYTp8LZ/lt27ixYZjOE8Rfx7Cg4Ouucmmg==",
+  "dgSpecHash": "Mjbo39sHzV0CgKUfh0JD5HrVuzlZAH8lscnztyeAYBi6XOQvaTZUtaaSJMUB41pv3ftpopfqXfFwHjiGSJTKIQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\danii\\source\\repos\\RestApiModeloDDD\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\danii\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\danii\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.3\\microsoft.entityframeworkcore.5.0.3.nupkg.sha512",
     "C:\\Users\\danii\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.3\\microsoft.entityframeworkcore.abstractions.5.0.3.nupkg.sha512",
     "C:\\Users\\danii\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.3\\microsoft.entityframeworkcore.analyzers.5.0.3.nupkg.sha512",
