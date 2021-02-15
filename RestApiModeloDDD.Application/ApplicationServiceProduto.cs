@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace RestApiModeloDDD.Application
 {
-    public class ApplicationServiceProduto : IApplicationServviceProduto
+    public class ApplicationServiceProduto : IApplicationServiceProduto
     {
         private readonly IServiceProduto serviceProduto;
         private readonly IMapperProduto mapperProduto;

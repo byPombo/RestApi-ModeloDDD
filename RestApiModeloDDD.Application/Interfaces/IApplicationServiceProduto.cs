@@ -5,7 +5,7 @@ using System.Text;
 
 namespace RestApiModeloDDD.Application.Interfaces
 {
-    public interface IApplicationServviceProduto
+    public interface IApplicationServiceProduto
     {
         void Add(ProdutoDto clienteDto);
 
